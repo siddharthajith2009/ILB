@@ -1,0 +1,69 @@
+================================================================================
+    AI JOB IMPACT PREDICTOR - INSTALLATION & RUN GUIDE
+================================================================================
+
+STEP 1: Open Terminal in Visual Studio Code
+--------------------------------------------
+- In VS Code, go to: Terminal → New Terminal
+- Or press: Ctrl + ` (backtick key)
+
+
+STEP 2: Install Required Packages
+----------------------------------
+Copy and paste this command into your terminal:
+
+    python3 -m pip install pandas numpy scikit-learn
+
+Or if you prefer using the requirements file:
+
+    python3 -m pip install -r requirements.txt
+
+
+STEP 3: Run the Preprocessing Script
+-------------------------------------
+Navigate to the src folder and run the script:
+
+    cd src
+    python3 preprocess_data.py
+
+
+EXPECTED OUTPUT:
+----------------
+You should see:
+✓ Dataset loaded message
+✓ Missing values report
+✓ Outlier detection results
+✓ Encoding progress for each categorical feature
+✓ Normalization progress for each numerical feature
+✓ Summary report
+✓ Success message
+
+The script will create a new file:
+📁 data/preprocessed_job_data.csv
+
+
+TROUBLESHOOTING:
+----------------
+❌ "No module named 'pandas'"
+   → Make sure you ran the pip install command first
+   → Use: python3 -m pip install pandas numpy scikit-learn
+
+❌ "File not found" error
+   → Make sure you're in the correct directory
+   → Check that the CSV file is in the data/ folder
+
+❌ Permission denied error
+   → Try adding --user flag: python3 -m pip install --user pandas numpy scikit-learn
+
+
+VERIFYING INSTALLATION:
+-----------------------
+To check if packages are installed correctly:
+
+    python3 -c "import pandas; import numpy; import sklearn; print('✓ All packages installed!')"
+
+
+================================================================================
+Need help? Ask your bootcamp instructor or check the README.md file!
+================================================================================
+
