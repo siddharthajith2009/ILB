@@ -1,9 +1,0 @@
-Job Status Prediction Model
-==================================================
-Model Type: Random Forest
-Input Features:
-  - Job Title (encoded)
-  - Required Education (encoded)
-  - Experience Required (Years)
-
-Target: Job Status (Increasing/Declining/Stable)
