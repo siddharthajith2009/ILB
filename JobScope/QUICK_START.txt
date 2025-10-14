@@ -1,0 +1,29 @@
+================================================================================
+                    QUICK START - COPY & PASTE THESE COMMANDS
+================================================================================
+
+📋 COPY AND RUN THESE COMMANDS IN YOUR VS CODE TERMINAL:
+
+
+STEP 1: Install packages (this may take 1-2 minutes)
+-----------------------------------------------------
+python3 -m pip install pandas numpy scikit-learn
+
+
+STEP 2: Run the preprocessing script
+-------------------------------------
+cd src
+python3 preprocess_data.py
+
+
+That's it! ✅
+================================================================================
+
+WHAT TO EXPECT:
+- The script will process your 30,000+ job records
+- You'll see progress messages for each step
+- A new file will be created: data/preprocessed_job_data.csv
+- The entire process should take less than 30 seconds to run
+
+================================================================================
+
